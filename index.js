@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Path to the file to watch
-const filePath = "ENTER PATH TO FILE";
+const filePath = process.env["FILEPATH"];
 
 // Webhook URL
 const webhookURL = process.env["WEBHOOK"];
